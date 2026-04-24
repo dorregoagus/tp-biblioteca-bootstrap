@@ -1,6 +1,36 @@
 body {
     background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 }
 a:hover {
     color: darkgreen;
+}
+.card-body {
+    /* width: 80%; */
+    height: 200px;
+    margin: auto;
+   display: grid;
+    justify-content: center;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(88, 68, 51);
+    width: 80%;
+    border-radius: 10px;
+}
+.btn-primary {
+    background-color: rgb(165, 124, 89);
+    border: none;
+}
+.alert-success {
+    background-color: rgb(165, 124, 89);
+    border: none;
+    width: 80%;
+    margin-top: 20px;
+    text-align: center;
 }
