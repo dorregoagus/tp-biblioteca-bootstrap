@@ -1,9 +1,12 @@
 body {
+    font-family: 'Courier New', Courier, monospace;
     background-color: burlywood;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 a:hover {
     color: darkgreen;
@@ -19,7 +22,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(88, 68, 51);
+    background-color: rgb(247, 221, 199);
     width: 80%;
     border-radius: 10px;
 }
@@ -27,10 +30,73 @@ a:hover {
     background-color: rgb(165, 124, 89);
     border: none;
 }
+.btn:hover {
+    background-color: #68462c;
+}
 .alert-success {
     background-color: rgb(165, 124, 89);
     border: none;
     width: 80%;
     margin-top: 20px;
     text-align: center;
+    margin-top: 50px;
+}
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.logo-titulo img {
+    width: 150px;
+    height: 110px;
+}
+.titulo {
+    font-size: 75px;
+    color: #fff;
+    margin: 0;
+    justify-content: center;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #8b5e3c;
+    width: 100%;
+}
+.nav-link {
+    color:rgb(37, 27, 13);
+}
+.nav-item:hover {
+    background-color: #97755a;
+}
+.nav-link:hover {
+    color: rgb(37, 27, 13);
+}
+.logo-footer {
+    width: 75px;
+    height: auto;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+}
+.texto-footer {
+    color: #fff;
+    font-size: 14px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+    background-color: #8b5e3c;
+    margin-top: 20px;
+    width: 100%;
+}
+.nav-tabs {
+    width: 100%;
+}
+h5, p {
+    margin: 10px;
 }

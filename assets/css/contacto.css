@@ -2,6 +2,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 section {
     background-color: #ADA0A2;
@@ -67,4 +68,55 @@ input:focus {
     border: 1px solid black;
     border-radius: 5px;
     background-color: #F5F3EF;
+}
+.logo-footer {
+    width: 75px;
+    height: auto;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+}
+.texto-footer {
+    color: #fff;
+    font-size: 14px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+    background-color: #8b5e3c;
+    margin-top: 20px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #8b5e3c;
+}
+.nav-link {
+    color: rgb(37, 27, 13);
+}
+.nav-item:hover {
+    background-color: #97755a;
+}
+.nav-link:hover {
+    color: rgb(37, 27, 13);
+}
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.logo-titulo img {
+    width: 150px;
+    height: 110px;
+}
+.titulo-biblioteca {
+    font-size: 75px;
+    color: #fff;
+    margin: 0;
+    justify-content: center;
+    margin: 0 auto;
 }

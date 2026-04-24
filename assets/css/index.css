@@ -44,7 +44,13 @@ main {
     background-color: #8b5e3c;
 }
 .nav-link {
-    color: rgb(14, 36, 13);
+    color: rgb(37, 27, 13);
+}
+.nav-item:hover {
+    background-color: #97755a;
+}
+.nav-link:hover {
+    color: rgb(37, 27, 13);
 }
 .logo-footer {
     width: 75px;
@@ -74,6 +80,9 @@ footer {
 .btn-primary {
     background-color: #8b5e3c;
     border: none;
+}
+.btn:hover {
+    background-color: #68462c;
 }
 .card {
     transition: 0,03s;
