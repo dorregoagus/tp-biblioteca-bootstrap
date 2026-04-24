@@ -3,21 +3,68 @@ body {
     padding: 0;
     margin: 0;
 }
+section {
+    background-color: #ADA0A2;
+}
 label {
     font-size: 17px;
 }
-h4 {
-    font-size: 50px;
+.titulo {
+    text-align: center;
+}
+#tituloh1 {
+    font-family: serif;
+    font-size: 52px;
+}
+#titulop {
+    font-family: serif;
+    font-size: 32px;
+}
+.formulario h4 {
+    font-size: 30px;
     font-family: 'Oswald', sans-serif;
 }
 .formulario {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 80px;
+    padding: 32px;
     border: 1px solid rgb(70, 70, 70);
     border-radius: 5px;
     margin: 50px;
     max-width: 650px;
     max-height: 650px;
+    font-family: sans-serif;
+    background-color: #F5F3EF;
+}
+.campo {
+    padding: 15px
+}
+input[type="text"],
+input[type="mail"],
+input[type="tel"] {
+    width: 200px;
+}
+input:focus {
+    border: 1px solid lightgray;
+    outline: none;
+}
+.msg {
+    padding: 15px;
+}
+.place-msg {
+    padding: 8px 12px;
+    text-align: left;
+    height: 100px;
+    vertical-align: top;
+    align-self: flex-start;
+}
+.horario {
+    margin-top: 100px;
+    margin-right: 200px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    height: 130px;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #F5F3EF;
 }
