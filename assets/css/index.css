@@ -2,10 +2,19 @@ body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    background-color: #708075;
+    background-color: #f5f1eb;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+.banner img {
+    width: 97%;
+    height: 400px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    border-radius: 15px;
 }
 main {
     flex: 1;
@@ -32,7 +41,7 @@ main {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    background-color: #435c4b;
+    background-color: #8b5e3c;
 }
 .nav-link {
     color: rgb(14, 36, 13);
@@ -42,19 +51,18 @@ main {
     height: auto;
     margin-bottom: 10px;
     justify-content: flex-start;
-    background-color: #435c4b;
 }
 .texto-footer {
     color: #fff;
     font-size: 14px;
-    background-color: #435c4b;
 }
 footer {
     display: flex;
     align-items: center;
     justify-content: left;
     padding: 5px;
-    background-color: #435c4b;
+    background-color: #8b5e3c;
+    margin-top: 20px;
 }
 .contenedor {
     display: grid;
@@ -62,4 +70,14 @@ footer {
     gap: 20px;
     width: 90%;
     margin: auto;
+}
+.btn-primary {
+    background-color: #8b5e3c;
+    border: none;
+}
+.card {
+    transition: 0,03s;
+}
+.card:hover {
+    transform: translate(0, -5px);
 }
