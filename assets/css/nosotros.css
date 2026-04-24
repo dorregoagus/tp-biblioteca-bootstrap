@@ -9,7 +9,7 @@ h1, h2, h3 {
     
     text-decoration: black;
     text-align: center;
-    background-color: rgb(255, 123, 0);
+    background-color: rgba(255, 115, 0, 0.733);
     border-bottom: 3px solid cornflowerblue;
     padding: 10px;
     border-radius: 5px;
